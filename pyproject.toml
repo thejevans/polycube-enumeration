@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "polycube-enumeration"
+version = "0.1.0"
+description = ""
+authors = ["John Evans <github@thejevans.slmail.me>"]
+readme = "README.md"
+packages = [{include = "polycube_enumeration"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = ">=1.21,<1.25"
+scipy = "^1.11.1"
+numba = "^0.57.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
